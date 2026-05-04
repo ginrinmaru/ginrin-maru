@@ -115,16 +115,16 @@ export default function Home() {
                 <p className="text-gray-500 line-through text-xl mb-2">¥60,000</p>
                 <p className="text-4xl md:text-5xl font-black text-green-400">¥63,000</p>
                 <p className="text-sm text-gray-400 mt-2">6名様まで</p>
-                <p className="text-sm text-yellow-300 mt-3 font-bold">1人追加ごとに +¥8,000</p>
+                <p className="text-sm text-yellow-300 mt-3 font-bold">1人追加ごとに +¥9,000</p>
               </div>
             </div>
 
             <div className="bg-gradient-to-br from-orange-900/20 to-black border-2 border-orange-700 rounded-lg p-8">
               <h3 className="text-2xl font-bold text-center mb-6 text-orange-400">午後 チャーター</h3>
               <div className="text-center">
-                <p className="text-4xl md:text-5xl font-black text-orange-400">¥50,000</p>
+                <p className="text-4xl md:text-5xl font-black text-orange-400">¥49,000</p>
                 <p className="text-sm text-gray-400 mt-2">6名様まで</p>
-                <p className="text-sm text-yellow-300 mt-3 font-bold">1人追加ごとに +¥6,000</p>
+                <p className="text-sm text-yellow-300 mt-3 font-bold">1人追加ごとに +¥7,000</p>
               </div>
             </div>
           </div>
