@@ -37,15 +37,15 @@ export default function Home() {
         <Image src="/images/hero-boat.jpg" alt="銀鱗丸" fill priority className="object-cover brightness-50" />
         <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-black/80" />
         <div className="relative z-10 flex h-full flex-col items-center justify-center text-center px-4">
-          <Image src="/images/logo.jpg" alt="銀鱗丸ロゴ" width={400} height={200} className="mb-8 mix-blend-screen" />
-          <h1 className="font-serif text-5xl md:text-7xl font-black mb-12 tracking-widest">
+          <Image src="/images/logo.jpg" alt="銀鱗丸ロゴ" width={400} height={200} className="mb-6 md:mb-8 mix-blend-screen w-64 md:w-96 h-auto" />
+          <h1 className="font-serif text-4xl sm:text-5xl md:text-7xl font-black mb-8 md:mb-12 tracking-wider md:tracking-widest">
             <span className="bg-gradient-to-r from-yellow-200 via-yellow-400 to-yellow-600 bg-clip-text text-transparent">淡路島 育波港</span>
           </h1>
-          <a href="tel:070-2829-4900" className="group relative inline-flex items-center gap-3 bg-gradient-to-r from-yellow-500 to-yellow-700 px-10 py-5 text-lg font-bold text-black rounded-full hover:scale-105 transition-transform shadow-2xl">
+          <a href="tel:070-2829-4900" className="group relative inline-flex items-center gap-2 md:gap-3 bg-gradient-to-r from-yellow-500 to-yellow-700 px-6 md:px-10 py-4 md:py-5 text-base md:text-lg font-bold text-black rounded-full hover:scale-105 transition-transform shadow-2xl">
             <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" /></svg>
             お電話でご予約
           </a>
-          <p className="mt-4 text-2xl font-bold tracking-wider">070-2829-4900</p>
+          <p className="mt-4 text-xl md:text-2xl font-bold tracking-wider">070-2829-4900</p>
         </div>
         <div className="absolute bottom-10 left-1/2 -translate-x-1/2 z-10 animate-bounce">
           <svg className="w-8 h-8 text-yellow-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" /></svg>
@@ -62,9 +62,9 @@ export default function Home() {
             <div><Image src="/images/hero-boat.jpg" alt="銀鱗丸の船体" width={600} height={400} className="rounded-lg shadow-2xl" /></div>
             <div className="space-y-6">
               <h3 className="text-2xl md:text-3xl font-bold text-yellow-400">船長：柿本 稔也</h3>
-              <p className="text-lg leading-relaxed text-gray-300">淡路島 育波漁港より出船</p>
-              <p className="text-lg leading-relaxed text-gray-300">イカナゴ・シラス漁を営みながら<br />タイラバを中心に出船しております。<br />時期によりタコ釣りも出船します。</p>
-              <p className="text-lg leading-relaxed text-yellow-200 font-semibold">ご予約はお電話またはInstagramのDMへお願いいたします。</p>
+              <p className="text-base md:text-lg leading-relaxed text-gray-300">淡路島 育波漁港より出船</p>
+              <p className="text-base md:text-lg leading-relaxed text-gray-300">イカナゴ・シラス漁を営みながら、タイラバを中心に出船しております。時期によりタコ釣りも出船します。</p>
+              <p className="text-base md:text-lg leading-relaxed text-yellow-200 font-semibold">ご予約はお電話またはInstagramのDMへお願いいたします。</p>
             </div>
           </div>
         </div>
@@ -88,7 +88,7 @@ export default function Home() {
           </div>
 
           <div className="bg-gradient-to-r from-red-900/40 to-yellow-900/40 border-2 border-red-700 rounded-lg p-4 mb-8 text-center">
-            <p className="text-yellow-300 font-bold text-lg md:text-xl">🔔 2026年5月1日より新料金になります</p>
+            <p className="text-yellow-300 font-bold text-sm sm:text-base md:text-xl">🔔 2026年5月1日より新料金になります</p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
@@ -96,7 +96,7 @@ export default function Home() {
               <h3 className="text-2xl font-bold text-center mb-6 text-yellow-400">午前 乗合</h3>
               <div className="text-center">
                 <p className="text-gray-500 line-through text-xl mb-2">¥8,000</p>
-                <p className="text-5xl font-black text-yellow-400">¥9,000</p>
+                <p className="text-4xl md:text-5xl font-black text-yellow-400">¥9,000</p>
                 <p className="text-sm text-gray-400 mt-2">お一人様</p>
               </div>
             </div>
@@ -104,7 +104,7 @@ export default function Home() {
             <div className="bg-gradient-to-br from-yellow-900/20 to-black border-2 border-yellow-700 rounded-lg p-8">
               <h3 className="text-2xl font-bold text-center mb-6 text-yellow-400">午後 乗合</h3>
               <div className="text-center">
-                <p className="text-5xl font-black text-yellow-400 mt-9">¥7,000</p>
+                <p className="text-4xl md:text-5xl font-black text-yellow-400 mt-0 md:mt-9">¥7,000</p>
                 <p className="text-sm text-gray-400 mt-2">お一人様</p>
               </div>
             </div>
@@ -113,7 +113,7 @@ export default function Home() {
               <h3 className="text-2xl font-bold text-center mb-6 text-green-400">午前 チャーター</h3>
               <div className="text-center">
                 <p className="text-gray-500 line-through text-xl mb-2">¥60,000</p>
-                <p className="text-5xl font-black text-green-400">¥63,000</p>
+                <p className="text-4xl md:text-5xl font-black text-green-400">¥63,000</p>
                 <p className="text-sm text-gray-400 mt-2">6名様まで</p>
                 <p className="text-sm text-yellow-300 mt-3 font-bold">1人追加ごとに +¥8,000</p>
               </div>
@@ -122,7 +122,7 @@ export default function Home() {
             <div className="bg-gradient-to-br from-orange-900/20 to-black border-2 border-orange-700 rounded-lg p-8">
               <h3 className="text-2xl font-bold text-center mb-6 text-orange-400">午後 チャーター</h3>
               <div className="text-center">
-                <p className="text-5xl font-black text-orange-400">¥50,000</p>
+                <p className="text-4xl md:text-5xl font-black text-orange-400">¥50,000</p>
                 <p className="text-sm text-gray-400 mt-2">6名様まで</p>
                 <p className="text-sm text-yellow-300 mt-3 font-bold">1人追加ごとに +¥6,000</p>
               </div>
@@ -173,7 +173,7 @@ export default function Home() {
           <p className="text-xl mb-8 text-gray-300">ご予約は<span className="text-yellow-400 font-bold">お電話またはInstagram DM</span>でお願いします</p>
           <a href="tel:070-2829-4900" className="group inline-flex flex-col items-center gap-2 bg-gradient-to-br from-yellow-500 to-yellow-700 px-12 py-8 rounded-2xl shadow-2xl hover:scale-105 transition-transform">
             <span className="text-black font-bold text-lg">電話で予約する</span>
-            <span className="text-black text-4xl md:text-5xl font-black tracking-wider">070-2829-4900</span>
+            <span className="text-black text-3xl sm:text-4xl md:text-5xl font-black tracking-wider">070-2829-4900</span>
           </a>
           <p className="mt-8 text-gray-400">受付時間：9:00〜20:00（出船中は折り返しになる場合がございます）</p>
         </div>
