@@ -79,11 +79,36 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-8 mb-16">
             <div className="bg-gradient-to-br from-gray-900 to-black p-8 rounded-lg border border-yellow-900/50">
               <h3 className="text-3xl font-bold text-yellow-400 mb-4">タイラバ</h3>
-              <p className="text-gray-300 leading-relaxed">銀鱗丸のメインターゲット。明石・淡路の潮流が育てたマダイを狙います。</p>
+              <p className="text-gray-300 leading-relaxed mb-6">銀鱗丸のメインターゲット。明石・淡路の潮流が育てたマダイを狙います。</p>
+              <div className="bg-black/40 border border-yellow-700/40 rounded-lg p-4">
+                <p className="text-yellow-300 font-bold mb-3 text-sm">📌 推奨タックル</p>
+                <ul className="space-y-2 text-sm text-gray-300">
+                  <li><span className="text-yellow-200 font-semibold">ライン：</span>PE 0.6〜0.8号</li>
+                  <li><span className="text-yellow-200 font-semibold">ヘッド：</span>30〜100g<br /><span className="text-xs text-gray-400 ml-12">（鉛でもOKですがタングステン推奨）</span></li>
+                </ul>
+              </div>
             </div>
             <div className="bg-gradient-to-br from-gray-900 to-black p-8 rounded-lg border border-yellow-900/50">
               <h3 className="text-3xl font-bold text-yellow-400 mb-4">タコ</h3>
-              <p className="text-gray-300 leading-relaxed">淡路島名物のタコ釣り。タコエギを使った釣りで、女性やお子様にも楽しんでいただけます。</p>
+              <p className="text-gray-300 leading-relaxed mb-6">淡路島名物のタコ釣り。タコエギを使った釣りで、女性やお子様にも楽しんでいただけます。</p>
+              <div className="bg-black/40 border border-yellow-700/40 rounded-lg p-4 mb-3">
+                <p className="text-yellow-300 font-bold mb-3 text-sm">📌 推奨タックル</p>
+                <ul className="space-y-2 text-sm text-gray-300">
+                  <li><span className="text-yellow-200 font-semibold">ライン：</span>PE 2号</li>
+                  <li><span className="text-yellow-200 font-semibold">オモリ：</span>50号</li>
+                </ul>
+              </div>
+              <div className="bg-red-900/20 border border-red-700/50 rounded-lg p-4">
+                <p className="text-red-300 font-bold mb-3 text-sm">⚠️ ルール（必読）</p>
+                <ul className="space-y-1.5 text-sm text-gray-300">
+                  <li>・エギは2個まで</li>
+                  <li>・全ガサ禁止</li>
+                  <li>・針は1段（バーブレス針4本まで）</li>
+                  <li>・餌巻き禁止</li>
+                  <li>・ワーム針刺し禁止</li>
+                  <li>・スタンプ・スプレー・バターなど禁止</li>
+                </ul>
+              </div>
             </div>
           </div>
 
