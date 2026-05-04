@@ -95,7 +95,7 @@ export default function Home() {
             <div className="bg-gradient-to-br from-yellow-900/20 to-black border-2 border-yellow-700 rounded-lg p-8">
               <h3 className="text-2xl font-bold text-center mb-6 text-yellow-400">午前 乗合</h3>
               <div className="text-center">
-                <p className="text-gray-500 line-through text-xl mb-2">¥8,000</p>
+                
                 <p className="text-4xl md:text-5xl font-black text-yellow-400">¥9,000</p>
                 <p className="text-sm text-gray-400 mt-2">お一人様</p>
               </div>
@@ -112,7 +112,7 @@ export default function Home() {
             <div className="bg-gradient-to-br from-green-900/20 to-black border-2 border-green-700 rounded-lg p-8">
               <h3 className="text-2xl font-bold text-center mb-6 text-green-400">午前 チャーター</h3>
               <div className="text-center">
-                <p className="text-gray-500 line-through text-xl mb-2">¥60,000</p>
+                
                 <p className="text-4xl md:text-5xl font-black text-green-400">¥63,000</p>
                 <p className="text-sm text-gray-400 mt-2">6名様まで</p>
                 <p className="text-sm text-yellow-300 mt-3 font-bold">1人追加ごとに +¥9,000</p>
