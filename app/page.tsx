@@ -157,9 +157,17 @@ export default function Home() {
           <div className="w-24 h-1 bg-gradient-to-r from-yellow-500 to-yellow-700 mx-auto mb-16"></div>
           <div className="bg-gray-900 rounded-lg p-4 md:p-8 border border-yellow-900/50">
             <p className="text-center text-gray-400 mb-4">最新の出船スケジュールはこちら</p>
-            <div className="aspect-video bg-gray-800 rounded flex items-center justify-center">
-              <p className="text-gray-500 text-center px-4">Googleカレンダー埋め込みエリア<br /><span className="text-sm">（船長さんから埋め込みコードをいただき次第設定）</span></p>
+            <div className="aspect-video w-full overflow-hidden rounded">
+              <iframe
+                src="https://calendar.google.com/calendar/embed?src=harrierkks%40gmail.com&ctz=Asia%2FTokyo"
+                style={{ border: 0 }}
+                width="100%"
+                height="100%"
+                frameBorder="0"
+                scrolling="no"
+              ></iframe>
             </div>
+            <p className="text-center text-gray-500 text-sm mt-4">※スマホの方は横スクロールで月切替できます</p>
           </div>
         </div>
       </section>
