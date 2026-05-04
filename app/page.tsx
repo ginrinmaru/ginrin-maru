@@ -62,9 +62,9 @@ export default function Home() {
             <div><Image src="/images/hero-boat.jpg" alt="銀鱗丸の船体" width={600} height={400} className="rounded-lg shadow-2xl" /></div>
             <div className="space-y-6">
               <h3 className="text-2xl md:text-3xl font-bold text-yellow-400">船長：柿本 稔也</h3>
-              <p className="text-lg leading-relaxed text-gray-300">淡路島・育波漁港を拠点に、タイラバを中心とした船釣りをご案内しております。夏季はタコ釣りも出船しています。</p>
-              <p className="text-lg leading-relaxed text-gray-300">豊富な経験と実績で、初心者からベテランの方まで、最高の一匹との出会いをお約束します。</p>
-              <p className="text-lg leading-relaxed text-gray-300">明石海峡を望む豊かな漁場で、感動の手応えをぜひご体感ください。</p>
+              <p className="text-lg leading-relaxed text-gray-300">淡路島 育波漁港より出船</p>
+              <p className="text-lg leading-relaxed text-gray-300">イカナゴ・シラス漁を営みながら<br />タイラバを中心に出船しております。<br />時期によりタコ釣りも出船します。</p>
+              <p className="text-lg leading-relaxed text-yellow-200 font-semibold">ご予約はお電話またはInstagramのDMへお願いいたします。</p>
             </div>
           </div>
         </div>
