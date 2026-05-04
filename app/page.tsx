@@ -255,7 +255,7 @@ export default function Home() {
           <Image src="/images/logo.jpg" alt="銀鱗丸" width={200} height={100} className="mx-auto mb-6 mix-blend-screen" />
           <p className="text-gray-400 mb-2">淡路島育波漁港 遊漁船 銀鱗丸</p>
           <p className="text-gray-500 text-sm">© 2026 銀鱗丸 All Rights Reserved.</p>
-          <p className="text-gray-600 text-xs mt-4">Site by YTS Apps</p>
+          <p className="text-gray-600 text-xs mt-4">Site by YTS Products</p>
         </div>
       </footer>
     </main>
