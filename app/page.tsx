@@ -157,9 +157,9 @@ export default function Home() {
           <div className="w-24 h-1 bg-gradient-to-r from-yellow-500 to-yellow-700 mx-auto mb-16"></div>
           <div className="bg-gray-900 rounded-lg p-4 md:p-8 border border-yellow-900/50">
             <p className="text-center text-gray-400 mb-4">最新の出船スケジュールはこちら</p>
-            <div className="aspect-video w-full overflow-hidden rounded">
+            <div className="hidden md:block w-full rounded overflow-hidden" style={{ height: '600px' }}>
               <iframe
-                src="https://calendar.google.com/calendar/embed?src=harrierkks%40gmail.com&ctz=Asia%2FTokyo"
+                src="https://calendar.google.com/calendar/embed?src=harrierkks%40gmail.com&ctz=Asia%2FTokyo&mode=MONTH"
                 style={{ border: 0 }}
                 width="100%"
                 height="100%"
@@ -167,7 +167,17 @@ export default function Home() {
                 scrolling="no"
               ></iframe>
             </div>
-            <p className="text-center text-gray-500 text-sm mt-4">※スマホの方は横スクロールで月切替できます</p>
+            <div className="block md:hidden w-full rounded overflow-hidden" style={{ height: '700px' }}>
+              <iframe
+                src="https://calendar.google.com/calendar/embed?src=harrierkks%40gmail.com&ctz=Asia%2FTokyo&mode=AGENDA&showTitle=0&showNav=1&showPrint=0&showTabs=0&showCalendars=0&showTz=0"
+                style={{ border: 0 }}
+                width="100%"
+                height="100%"
+                frameBorder="0"
+                scrolling="no"
+              ></iframe>
+            </div>
+            <p className="text-center text-gray-500 text-sm mt-4">予定をタップすると詳細を確認できます</p>
           </div>
         </div>
       </section>
